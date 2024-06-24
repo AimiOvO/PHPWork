@@ -1,0 +1,75 @@
+a.newslink{
+	color: #000;
+	text-decoration: none;
+}
+a.newslink:hover{
+	color: rgb(255, 93, 17);
+}
+
+.news{
+	position: relative;
+	height: 80px;
+	margin: 10px 20px 20px;
+	padding: 7px 0;
+	background: #fff;
+	overflow: hidden;
+	box-shadow: 0px 5px 12px rgba(0,0,0,0.3);
+	transition: margin 0.3s ease;
+}
+.news:hover{
+	margin: 10px 10px 20px;
+	transition: all 0.2s ease;
+}
+.news-img{
+	float: left;
+	border: rgb(163, 163, 163) solid 1px;
+	margin: 0 2% 0% 4%;
+	width: 120px;
+	height: 80px;
+	overflow: hidden;
+}
+.news-img img{
+	display: block;
+	margin: 0 auto;
+	height: 80px;
+}
+.news-main{
+	float: left;
+	max-height: 80px;
+	max-width: 80%;
+	overflow:hidden; 
+}
+.title{
+	line-height: 60px;
+	font-size: 1.6em;
+	font-weight: bolder;
+	white-space:nowrap; 
+	overflow: hidden;
+    text-overflow: ellipsis; 
+}
+.author{
+	line-height: 20px;
+	font-size: 0.9em;
+	white-space:nowrap; 
+	overflow: hidden;
+	display: inline;
+    text-overflow: ellipsis; 
+}
+.limit{
+	margin: 20px 0;
+	display: flex;
+	justify-content: center;
+}
+.limit input[type=submit]{
+    font-size: 0.8em;
+    width: 4em;
+    line-height: 30px;
+	margin: 0 10px;
+    border: none;
+	background-color: #fff;
+    transition: width 0.4s ease;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.3);
+}
+.limit p{
+	line-height: 30px;
+}

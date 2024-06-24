@@ -1,0 +1,16 @@
+.news-del{
+	position: absolute;
+	right: 40px;
+	bottom: 7px;
+}
+.news-del a{
+	font-weight: bold;
+	text-decoration: none;
+	color: rgb(119, 119, 119);
+}
+.news-del a:hover{
+	color: rgb(255, 68, 68);
+}
+.news-pre{
+    position: relative;
+}

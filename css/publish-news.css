@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: rgb(237, 238, 237);
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+.publishCotrol {
+    background: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 55%;
+    height: 720px;
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.3);
+}
+.logo p{
+	color: #E13439;
+    font-family: '华文行楷';
+	font-weight: bolder;
+	font-size: 3em;
+    line-height: 120px;
+    text-align: center;
+}
+.newsedit{
+    width: 85%;
+    margin: 0 auto;
+    text-align: center;
+}
+.publishplane{
+    overflow: hidden;
+    margin: 0 auto;
+}
+.publishplane p{
+    float: left;
+    display: inline;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+.publishplane input[type=text]{
+    line-height: 35px;
+    font-size: 1.2em;
+    margin: 0px auto 30px;
+    width: 90%;
+}
+.publishplane textarea{
+    font-size: 1.2em;
+    margin: 0px auto 30px;
+    width: 90%;
+    height: 50%;
+    resize: none;
+}
+.publishplane input[type=file]{
+    line-height: 35px;
+    font-size: 1.2em;
+    margin: 0px auto 30px;
+    width: 90%;
+}
+.publishplane input[type=submit]{
+    background: rgb(22, 150, 255);
+    margin: 20px auto 15px;
+    font-size: 1em;
+    font-family: '宋体';
+    font-weight: bold;
+    width: 15%;
+    line-height: 40px;
+    border: none;
+    transition: width 0.4s ease;
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.3);
+}
+.publishplane input[type=submit]:hover{
+    background: rgb(66, 170, 255);
+    width: 17%;
+    line-height: 42px;
+    transition: 0.3s ease;
+}
+.publishplane input::-webkit-input-placeholder {
+    text-align: center;
+}
+.publishplane input::-moz-placeholder { 
+    text-align: center;
+} /* firefox 19+ */
+.publishplane input:-ms-input-placeholder {
+    text-align: center;
+} /* ie */
+.publishplane input:-moz-placeholder {
+    text-align: center;
+}

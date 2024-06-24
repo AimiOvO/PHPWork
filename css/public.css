@@ -1,0 +1,168 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+a.buttonlink{
+	color: #000;
+	text-decoration: none;
+}
+body{
+	background: rgb(247, 248, 247);
+	margin: 0 auto;
+	width: 100%;
+	height: auto;
+}
+
+.seachBox input[type=text]{
+    line-height: 35px;
+    font-size: 1.2em;
+}
+.seachBox input::-webkit-input-placeholder {
+    font-size: 0.8em;
+}
+.seachBox input::-moz-placeholder { 
+    font-size: 0.8em;
+} /* firefox 19+ */
+.seachBox input:-ms-input-placeholder {
+    font-size: 0.8em;
+} /* ie */
+.seachBox input:-moz-placeholder {
+    font-size: 0.8em;
+}
+
+.main{
+	min-height: 1200px;
+	display: flex;
+	margin: 0 auto;
+}
+.leftcol{
+    width: 80%;
+    min-height: 800px;
+    background: rgb(238, 238, 238);
+}
+.rightcol{
+    margin: 0 auto;
+	width: 17%;
+	min-height: 800px;
+}
+.userpanle{
+	position: sticky;
+	top: 8px;
+}
+.toTop{
+	position: sticky;
+	top: 90%;
+}
+.writer{
+	box-shadow: 0px 15px 20px rgba(0,0,0,0.3);
+	margin: 30px auto;
+	width: 80%;
+	background: #e0e0e0;
+}
+.w-info ul{
+	padding: 20px 10px;
+}
+.w-info ul li{
+	list-style: none;
+	margin: 12px auto;
+}
+.name{
+	text-align: center;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+.utype{
+	text-align: center;
+	font-size: 0.8em;
+}
+.w-headimg{
+	border: rgb(110, 110, 110) solid 1px;
+	margin: 10px auto;
+	overflow: hidden;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+}
+.w-headimg img{
+	width: 100px;
+}
+.control{
+	box-shadow: 0px 10px 15px rgba(0,0,0,0.3);
+	margin: 20px auto;
+	width: 42%;
+	height: 40px;
+	background: #e0e0e0;
+	transition: width 0.3s ease;
+}
+.control p{
+	line-height: 40px;
+	font-weight: bold;
+	text-align: center;
+}
+.control:hover{
+	width: 47%;transition: width 0.2s ease;
+}
+.main-header{
+	background-color: #9198e5;
+	background-image: linear-gradient(#9198e5,#e3e4fc );
+	height: 30px;
+}
+.main-header p{
+	line-height: 30px;
+	font-weight: bolder;
+	margin-left: 4%;
+	color: #000;
+}
+
+.header{
+	width: 100%;
+	height: 80px;
+	background-color: rgb(221, 221, 221);
+	overflow: hidden;
+}
+.logo{
+    display: block;
+	margin-left: 4%;
+	float: left;
+}
+.logo p{
+	color: #E13439;
+    font-family: '华文行楷';
+	font-weight: bolder;
+	font-size: 2em;
+	line-height: 80px;
+}
+.logo a{
+	text-decoration: none;
+}
+.nav ul li{
+	list-style: none;
+	float: right;
+	line-height: 80px;
+	margin-right: 40px;
+	padding:0 10px;
+}
+.nav ul li a{
+	font-family: 等线;
+	font-weight: bolder;
+	font-size: 1.5em;
+	color: #fff;
+	text-decoration: none;
+}
+.nav ul li a:hover{
+	color: #E13439;
+	transition: all 0.3s ease;
+}
+
+.footer{
+	width: 100%;
+	height: auto;
+	background-color: rgb(201, 201, 201);
+	text-align: center;
+}
+.footer p{
+	color: #202020;
+	font-size: 1.2em;
+	display: inline-block;
+	margin: 30px;
+}
